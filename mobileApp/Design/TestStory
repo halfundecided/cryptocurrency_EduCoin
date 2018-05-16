@@ -1,0 +1,19 @@
+Title: Customer Modifies Settings
+Test: custModSetting                       
+Priority: 1	
+Story Points: 2
+Given the user is logged in
+And the setting can be edited
+When the user attempts to edit a setting
+Then the setting will be changed in the current session
+And it will be updated in the database
+
+Title: Database Update Setting
+Test: custSaveSetting                       
+Priority: 2	
+Story Points: 2
+Given the user is connected to the internet
+And the user is logged in
+When a setting is modified
+Then the App will contact the Server
+And update the setting in the database

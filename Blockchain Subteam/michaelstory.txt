@@ -1,0 +1,24 @@
+Title: Customer Withdraw Coins
+Acceptance Test: withdrawCoinItem	
+Priority: 1
+Story Points: 1
+
+GIVEN the customer is a valid coin owner
+And has coins to withdraw
+And wants to withdraw coin
+WHEN the customer requests coins
+THEN ensure the proper amount of coins are distributed
+And ensure the correct amount is withdrawn
+And ensure this information is correct
+
+Title: Customer Transfers Coins
+Acceptance Test: transferCoinItem
+Priority 2:
+Story Points: 2
+GIVEN the customer is a valid coin owner
+And has coins to transfer
+And wants to transfer them to someone
+WHEN the customer requests a transfer
+THEN ensure the proper amount of coins are distributed
+And ensure they are transferred to a valid member
+And ensure both accounts are updated

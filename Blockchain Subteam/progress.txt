@@ -1,0 +1,31 @@
+David DeLaus-
+research on blockchain implementation
+
+http://searchcio.techtarget.com/feature/Step-by-step-guide-to-a-blockchain-implementation
+https://www.quora.com/What-is-the-simplest-implementation-of-the-blockchain
+https://github.com/conradoqg/naivecoin
+
+Mitchell Brooks-
+Found blockchain skeletons in java, python, and javascript
+https://medium.com/technology-nineleaps/how-to-create-blockchain-from-the-scratch-ce9e01436881
+Found blockchain skeleton in C++
+https://medium.com/technology-nineleaps/how-to-create-blockchain-from-the-scratch-ce9e01436881
+
+
+Michael Dineen:
+Researched Crypto Currency Implementation:
+https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b
+- What a block looks like
+- Adding a block to a chain
+- Function to generate succeeding blocks in a chain
+Building an actual a block chain:
+https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
+- Step by step implementation with source code
+-Covers adding functionality to the block chain once its built
+
+Jake Fallin:
+researched BFT (Byzantanium Fault Tolerance) and how it relates to maintaing a network of nodes and avoiding failure from single nodes
+https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
+Looked at Exonum which is a extensible framework for blockchain projects
+https://exonum.com/
+
